@@ -6,13 +6,68 @@ body {
     margin: 0; /* keep this */
 }
 
+header {
+  float:left;
+  width: 100%;
+  background: #333;
+  position: fixed;
+}
+
+h1 {
+  float: left;
+  padding-left: 50px;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+h2, section > p {
+  text-align: center;
+  margin: 0;
+  clear: left;
+  padding: 30px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+article {
+  background: #fff;
+  color: #000;
+  padding: 20px 40px;
+  width: 50%;
+  margin: auto;
+}
+
+#cougar {
+  background: #FFD5AE;
+  padding-top: 120px;
+}
+
+#lion {
+  background: #FFBD82;
+}
+
+#tiger {
+  background: #B26219;
+}
+
+footer {
+text-align: center;
+padding-left: 100px;
+padding-right: 100px;
+}
+
 /* ----- suggested colors -----
    B26219 cinnamon
-   FFD5AE pale peach 
+   FFD5AE pale peach
    FFBD82 peach
    379CB2 medium blue
    82E8FF light blue
-   
+
    ----- neutral colors -----
    000 black
    333 charcoal
@@ -27,3 +82,19 @@ body {
 
 a { color: #379CB2; }
 a:hover { color: #82E8FF; }
+
+nav {
+  float: right;
+  display: inline;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  margin-left: 20px;
+}
