@@ -11,27 +11,31 @@ header {
   width: 100%;
   background: #333;
   position: fixed;
-  position: fixed;
   top: 0;
   left: 0;
 }
 
 h1 {
   float: left;
-  padding-left: 50px;
+  padding-left: 30px;
   box-sizing: border-box;
+}
+
+div{
+  float:left;
+  box-sizing: border-box;
+  padding-left: 30px;
 }
 
 section {
   padding-bottom: 30px;
   box-sizing: border-box;
+  color: #000;
 }
 
 h2, section > p {
-  text-align: center;
-  margin: 0;
+  text-align: left;
   clear: left;
-  padding: 30px;
   box-sizing: border-box;
 }
 
@@ -39,40 +43,44 @@ img {
   display: block;
   margin: auto;
   box-sizing: border-box;
+  float: left;
 }
 
 article {
-  background: #fff;
   color: #000;
-  padding: 20px 40px;
+  padding: 20px 30px;
   width: 50%;
   margin: auto;
   box-sizing: border-box;
+  float: right;
 }
 
 #cougar {
   background: #FFD5AE;
   padding-top: 120px;
   box-sizing: border-box;
+  float:left;
 }
 
 #lion {
   background: #FFBD82;
   padding-top: 120px;
   box-sizing: border-box;
+  float:left;
 }
 
 #tiger {
   background: #B26219;
   padding-top: 120px;
   box-sizing: border-box;
+  float:left;
 }
 
 footer {
 text-align: center;
-padding-left: 100px;
-padding-right: 100px;
+padding: 20px 120px;
 box-sizing: border-box;
+clear:both;
 }
 
 /* ----- suggested colors -----
@@ -95,9 +103,12 @@ box-sizing: border-box;
 /* --- links and nav --- */
 
 a { color: #379CB2;
-    text-decoration: none;}
+    text-decoration: none;
+  }
+
 a:hover { color: #82E8FF;
-    text-decoration: underline;}
+    text-decoration: underline;
+  }
 
 nav {
   float: right;
